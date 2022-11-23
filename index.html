@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Exploration</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="container-fluid py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black mainnav">
+        <div class="container-fluid">
+
+            <i class="bi bi-circle-fill text-danger"></i>
+          <h5 class="navbar-brand mx-3 fs-3 htext" href="#">Mars Exploration Program</h5>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-100 justify-content-center">
+              <li class="nav-item navitem">
+                <a class="nav-link mx-1 text-warning fs-5" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item navitem">
+                <a class="nav-link mx-3 text-warning fs-5" aria-current="page" href="#Rovers">Rovers</a>
+              </li>
+              <li class="nav-item navitem">
+                <a class="nav-link mx-3 text-warning fs-5" aria-current="page" href="#Technologies">Technologies</a>
+              </li>
+              <li class="nav-item navitem">
+                <a class="nav-link mx-3 text-warning fs-5" aria-current="page" href="#Technologies">Technologies</a>
+              </li>
+              <li class="nav-item navitem">
+                <a class="nav-link mx-3 text-warning fs-5" aria-current="page" href="#Technologies">Technologies</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle mx-3 fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Explore More
+                </a>
+                <ul class="dropdown-menu bg-secondary mx-4 text-white" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-white" href="#">News</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Events</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Mars Surface</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Mars Craters</a></li>
+                  
+                  <li><a class="dropdown-item text-white" href="#">Gallery</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+         
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</div>
+
+<div class="container-fluid">
+  <div class="bubbles d-flex justify-content-evenly">
+      <span style="--i:5;"></span>
+      <span style="--i:8;"></span>
+      <span style="--i:11;"></span>
+      <span style="--i:3;"></span>
+      <span style="--i:6;"></span>
+      <span style="--i:9;"></span>
+      <span style="--i:6;"></span>
+      <span style="--i:4;"></span>
+      <span style="--i:8;"></span>
+      <span style="--i:10;"></span>
+      <span style="--i:6;"></span>
+      <span style="--i:4;"></span>
+      <span style="--i:10;"></span>
+      <span style="--i:6;"></span>
+      <span style="--i:8;"></span>
+</div>
+</div>
+
+<div class="container-md my-5">
+<div class="row justify-content-center align-items-center">
+<div class="col-md-5 text-white">
+    <div class="col p-4 mx-3 text-start">
+        <h1 class="fw-light mx-3 text-center">MARS EXPLORATION</h1>
+        <h3 class="fw-light mx-3 my-3 text-center text-primary">NASA SPACE ROVERS</h3>
+        <p class="fw-light my-4">The goal of the Mars Exploration Program is to explore Mars and to provide a continuous flow of scientific
+             information and discovery through a carefully selected series of robotic orbiters, landers and mobile laboratories interconnected by a high-bandwidth Mars/Earth communications network.</p>
+    </div>
+<img class="img-fluid d-none d-lg-block" src="images/Rocket.png">
+</div>
+<div class="col-md-6">
+    <img src="images/Mars.png" alt="" class="img-fluid">
+</div>
+</div>
+
+</div>
+
+<div class="container-md rounded">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Surface1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Jazero Crater</h4>
+            
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Surface2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Sunset on Mars</4>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Surface3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Olympus Mountain</h4>
+            
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<div class="container-lg my-3">
+    <div class="row justify-content-evenly">
+        <div class="col-md-4 py-1">
+          <a href="images/Surface1.jpg"><img src="images/Surface1.jpg" alt="" class="img-fluid myimg" width="120%"></a>      
+            <h2 class="text-white my-2">Our Mission</h2>
+            <p class="text-white">The mission's scientific objective was to search for and characterize a wide range of rocks and soils that hold clues to past water activity on Mars. The mission is part of NASA's Mars Exploration Program, which includes three previous successful landers: the two Viking program landers in 1976 and Mars Pathfinder probe in 1997.</p>
+
+            
+            <div id="content"> <p class="text-white">
+
+              The total cost of building, launching, landing and operating the rovers on the surface for the initial 90-sol primary mission was US$820 million. Each rover received five mission extensions, as they continued to function past their initially planned duration. The fifth mission extension was granted in October 2007, and ran to the end of 2009.The total cost of the first four mission extensions was $104 million, and the fifth mission extension cost at least $20 million.
+              
+              In July 2007, during the fourth mission extension, Martian dust storms blocked sunlight to the rovers and threatened the ability of the craft to gather energy through their solar panels, causing engineers to fear that one or both of them might be permanently disabled. However, the dust storms lifted, allowing them to resume operations.
+              
+              On May 1, 2009, during its fifth mission extension, Spirit became stuck in soft soil. After nearly nine months of attempts to get the rover back on track, including using test rovers on Earth, NASA announced on January 26, 2010 that Spirit was being retasked as a stationary science platform. This mode would enable Spirit to assist scientists in ways that a mobile platform could not, such as detecting "wobbles" in the planet's rotation that would indicate a liquid core. The Jet Propulsion Laboratory (JPL) lost contact with Spirit after last hearing from the rover on March 22, 2010, and continued attempts to regain communications lasted until May 25, 2011, bringing the elapsed mission time to 6 years 2 months 19 days, or over 25 times the original planned mission duration.
+              
+              In recognition of the vast amount of scientific information amassed by both rovers, two asteroids have been named in their honor: 37452 Spirit and 39382 Opportunity. The mission is managed for NASA by the Jet Propulsion Laboratory, which designed, built, and is operating the rovers.</p>
+            </div>
+            
+            <button type="button" id="show-more" class="btn btn-warning mybutton">Read More</button>
+        </div>
+
+        <div class="col-md-4 py-1">
+          <a href="images/Surface2.jpg"><img src="images/Surface2.jpg" alt="" class="img-fluid myimg" width="120%"></a>
+          <h2 class="text-white my-2">Objectives</h2>
+            <p class="text-white">The scientific objectives of the Mars Exploration:
+              <br>
+              1. Search for and characterize a variety of rocks and soils that hold clues to past water activity. In particular, samples sought will include those that have minerals deposited by water-related 
+              processes such as precipitation, evaporation, sedimentary 
+              cementation, or hydrothermal activity.
+</p>
+            <div id="content1"> <p class="text-white">
+                       
+2. Determine the distribution and composition of minerals, rocks, and soils surrounding the landing sites.
+<br>
+3. Determine what geologic processes have shaped the local terrain and influenced the chemistry. Such processes could include water or wind erosion, sedimentation, hydrothermal mechanisms, volcanism, and cratering.
+<br>
+4. Perform "ground truth" -- calibration and validation -- of surface observations made by Mars orbiter instruments. This will help determine the accuracy and effectiveness of various instruments that survey Martian geology from orbit.
+<br>
+5. Search for iron-containing minerals, identify and quantify relative amounts of specific mineral types that contain water or were formed in water, such as iron-bearing carbonates.
+<br>
+6. Characterize the mineralogy and textures of rocks and soils and determine the processes that created them.
+<br>
+7. Search for geological clues to the environmental conditions that existed when liquid water was present. Assess whether those environments were conducive to life.
+            </p>
+            </div>
+            
+            <button type="button" id="show-more1" class="btn btn-warning mybutton">Read More</button>
+        </div>
+
+        <div class="col-md-4 py-1">
+          <a href="images/Surface3.jpg"><img src="images/Surface3.jpg" alt="" class="img-fluid myimg" width="120%"></a>
+          
+            <h2 class="text-white my-2">Discoveries</h2>
+            <p class="text-white">The Mars Exploration Rovers tell us of an ancient time when Mars was awash in water, with good conditions for supporting microbial life. Here are some of the rovers' most significant discoveries about the red planet:
+              <br>
+              <br>
+              1. Soaked in Salty Waters Long Ago:
+            </p>
+            
+            <div id="content2"> <p class="text-white">
+              
+              Landing in a crater, Opportunity scored a "hole in one" by finding the mineral hematite, which typically forms in water. Water is key to life as we know it. Yet, acidic water soaked this area in Mars' ancient past, making conditions harder for life to thrive.
+              Lengthy detective work with data NASA's Mars Exploration Rover Spirit collected in late 2005 has confirmed that an outcrop called "Comanche" contains a mineral indicating that a past environment was wet and non-acidic, possibly favorable to life.
+              <br>
+              2. Bathing in Neutral Water in a Warmer Climate:
+              <br>
+              At a place called Comanche, Spirit found rocks ten times richer in key chemicals (magnesium and iron carbonates) than any other Martian rocks studied before. These rocks formed when Mars was warm and wet (had a thicker carbon-dioxide atmosphere and near-neutral-pH water). This warmer, watery environment could have supported life much better than the harshly acidic conditions the rover found elsewhere.
+              <br>
+              3. Related News Release:
+              <br>
+              NASA Rover Finds Conditions Once Suited For Ancient Life On Mars
+              Spirit acquired this mosaic while investigating the area east of the elevated plateau known as "Home Plate" in the "Columbia Hills." The trench exposed a patch of nearly pure silica, with the composition of opal. It could have come from either a hot-spring environment or an environment called a fumarole, in which acidic, volcanic steam rises through cracks. Either way, its formation involved water, and on Earth, both of these types of settings teem with microbial life.
+               <br>
+              4. Steamy Times in Ancient Hot Springs:
+              <br>
+              While dragging a wheel, Spirit churned up soil and found 90 percent pure silica at "Home Plate." On Earth, this kind of silica usually exists in hot springs or hot steam vents, where life as we know it often finds a hot, happy home. Perhaps ancient microbes on Mars did as well.
+              Related News Release:
+              Mars Rover Investigates Signs of Steamy Martian Past
+              The lower coarse-grained unit shows granular textures toward the bottom of the image and massive textures.
+               <br>
+              5. Explosive Signs of a Once Heated Habitat:
+              <br>
+              Spirit discovered that an ancient volcano erupted at "Home Plate," the rover's final resting place. Together, powerful steam eruptions from heated underground water produced some explosive volcanism. While violent, these extreme conditions can support microbial life on Earth. Once upon a time, maybe they did on Mars...
+              Related News Release:
+              NASA'S Mars Rover Finds Evidence of Ancient Volcanic Explosion
+              This color view of a mineral vein called "Homestake" comes from the panoramic camera (Pancam) on NASA's Mars Exploration Rover Opportunity.
+
+
+            </div>
+            
+            <button type="button" id="show-more2" class="btn btn-warning mybutton">Read More</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="row my-3 g-0">
+    <div class="col">
+        <div class="bg-secondary text-white my-4 py-1 text-center">
+            <div class="card-body divider">Robotic space mission</div>
+        </div>
+    </div>
+</div>
+
+<section id="Rovers">
+  <div class="container text-center">
+<h1 class="text-white my-5">Mars Rovers</h1>
+  </div>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <a href="images/Spirit.jpg"><img src="images/Spirit.jpg" class="card-img-top myimg" alt="..."></a>
+            <div class="card-body mcard">
+              <h4 class="card-title">Spirit</h4>
+              <p class="card-text">Spirit, also known as MER-A or MER-2, is a Mars robotic rover, active from 2004 to 2010. Spirit was operational on Mars for 2208 sols or 3.3 Martian years. It was one of two rovers of NASA's Mars Exploration Rover Mission managed by the Jet Propulsion Laboratory.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <a href="images/Opportunity.jpg"><img src="images/Opportunity.jpg" class="card-img-top myimg" alt="..."></a>
+            <div class="card-body mcard">
+              <h4 class="card-title">Opportunity</h4>
+              <p class="card-text">Opportunity, also known as MER-B or MER-1, is a robotic rover that was active on Mars from 2004 until 2018. Opportunity was operational on Mars for 5111 sols.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <a href="images/Curiosity.jpg"><img src="images/Curiosity.jpg" class="card-img-top myimg" alt="..."></a>
+            <div class="card-body mcard">
+              <h4 class="card-title">Curiosity</h4>
+              <p class="card-text">Curiosity is a car-sized Mars rover designed to explore the Gale crater on Mars as part of NASA's Mars Science Laboratory mission. Curiosity was launched from Cape Canaveral on 26 November 2011 and landed on Aeolis Palus inside Gale crater on Mars on 6 August 2012. The rover is still operational, and as of 16 November 2022, Curiosity has been active on Mars for 3654 sols (3754 total days; 10 years, 102 days) since its landing.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-dark text-white">
+            <a href="images/Perseverance.jpg"><img src="images/Perseverance.jpg" class="card-img-top myimg" alt="..."></a>
+            <div class="card-body mcard">
+              <h4 class="card-title">Perseverance</h4>
+              <p class="card-text">Perseverance, nicknamed Percy, is a Mars rover designed to explore the Jezero crater on Mars as part of NASA's Mars 2020 mission. It was launched on 30 July 2020, Confirmation that the rover successfully landed on Mars was received on 18 February 2021, As of 15 November 2022, Perseverance has been active on Mars for 618 sols (635 Earth days, or 1 year, 8 months and 28 days). It was bundled with the Ingenuity helicopter, powered by solar-charged batteries, With a mass of 1.8 kg</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</section>
+
+<div class="row my-3 g-0">
+  <div class="col">
+      <div class="bg-secondary text-white my-4 py-1 text-center ">
+          <div class="card-body divider" id="Technologies">Technologies</div>
+      </div>
+  </div>
+</div>
+<div class="container">
+  
+  <div class="row">
+
+    
+    <div class="col-md-8"> 
+      <h5 class="text-center text-white">Design of the Perseverance</h5>
+      <p class="text-white">  &nbsp;    The Perseverance design evolved from its predecessor, the Curiosity rover. The two rovers share a similar body plan, landing system, cruise stage, and power system, but the design was improved in several ways for Perseverance. Engineers designed the rover wheels to be more robust than Curiosity's wheels, which have sustained some damage. Perseverance has thicker, more durable aluminum wheels, with reduced width and a greater diameter, 52.5 cm (20.7 in), than Curiosity's 50 cm (20 in) wheels. The aluminum wheels are covered with cleats for traction and curved titanium spokes for springy support. The heat shield for the rover was made out of phenolic-impregnated carbon ablator (PICA), to allow it to withstand up to 2,400 °F (1,320 °C) of heat. Like Curiosity, the rover includes a robotic arm, although Perseverance's arm is longer and stronger, measuring 2.1 m (6 ft 11 in). The arm hosts an elaborate rock-coring and sampling mechanism to store geologic samples from the Martian surface in sterile caching tubes. There is also a secondary arm hidden below the rover that helps store the chalk-sized samples. This arm is known as the Sample Handling Assembly (SHA), and is responsible for moving the soil samples to various stations within the Adaptive Caching Assembly (ACA) on the underside of the rover. These stations include volume assessment (measuring the length of sample), imaging, seal dispensing, and hermetic seal station, among others. Owing to the small space in which the SHA must operate, as well as load requirements during sealing activities, the Sample Caching System "is the most complicated, most sophisticated mechanism that we have ever built.</p></div>
+  
+    <div class="col-md-3 text-center">  <video width="320" height="240" controls autoplay muted loop>
+      <source src="images/rover.mp4" type="video/mp4">
+    </video>
+    </div>
+
+
+<div class="col-md-8 text-white">
+  <h5 class="text-center">Ingenuity helicopter</h5>
+  <p> &nbsp; The Ingenuity helicopter, powered by solar-charged batteries, was sent to Mars in the same bundle with Perseverance. With a mass of 1.8 kg (4.0 lb), it demonstrated the reality of flight in the rarefied Martian atmosphere and the potential usefulness of aerial scouting for rover missions. Its pre-launch experimental test plan was 3 flights in 45 days. As of August 31, 2022, it has made 30 successful flights. Ingenuity's 25th successful flight, which occurred on April 8, 2022, saw the helicopter set new records for highest speed and distance traveled during a single flight. It carries two cameras but no scientific instruments and communicates with Earth via a base station onboard Perseverance. The first takeoff was attempted on 19 April 2021 at 07:15 UTC, with livestreaming three hours later at 10:15 UTC confirming the flight. It was the first powered flight by an aircraft on another planet.Ingenuity made additional incrementally more ambitious flights, several of which were recorded by Perseverance's cameras.</p>
+</div>
+<div class="col-md-3 text-center">
+  <img src="images/heli.gif" alt="helicopter" style="width:128px;height:128px;" >
+</div>
+</div>
+
+
+</div>
+
+<div class="container-fluid my-3 " >
+    <div class="row">
+        <div class="col-12">&nbsp;</div>
+    </div>
+</div>
+
+<footer class="bg-dark text-center text-white">
+<div class="text-center p-2 bg-secondary mainfooter">
+    <i class="bi bi-facebook display-6 p-2 micon"></i>
+    <i class="bi bi-twitter display-6 p-2 micon"></i>
+    <i class="bi bi-youtube display-6 p-2 micon"></i>
+    <i class="bi bi-instagram p-2 micon"></i>
+    <br>
+    &copy; 2022. Copyright:
+    <a class="text-white p-2" href="#">Mars-Rovers.com</a>
+</div>
+
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

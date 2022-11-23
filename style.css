@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(24, 24, 28);
+    font-family: 'Montserrat', sans-serif;
+}
+.mainnav{
+    
+    z-index: 1;
+}
+.navitem a {
+    color: rgb(254, 253, 251)!important;
+    font-weight: lighter;
+    
+}
+
+.htext{
+color: rgba(237, 155, 55, 0.995)!important;
+font-size: 24px!important;
+}
+
+
+
+a:hover{
+    color:rgba(229, 136, 60, 0.995)!important;
+    border-bottom: 2px rgb(193, 180, 180);    
+}
+
+.myimg:hover{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+    }
+
+
+    #content, #content1, #content2{
+    
+    padding-top: 0;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    max-height: 183px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#content.open{
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+
+
+
+#content1.open{
+    max-height: 1300px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+
+
+
+#content2.open{
+    max-height: 2500px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+
+#show-more, #show-more1, #show-more2{
+    margin-top: 20px;
+}
+
+.mcard{
+    min-height: 240px;
+}
+
+.micon{
+    font-size: 1.5rem;
+}
+
+.micon:hover{
+    cursor: pointer;
+    color: rgb(228, 147, 17);
+}
+
+.divider{
+    background-color: rgb(24, 24, 28);
+}
+
+.mainfooter{
+    background-color: rgb(51, 51, 55)!important;
+    padding: 20px;
+}
+
+.bubbles{
+    z-index: -100;
+    position: relative;
+    display: flex;
+}
+
+
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #d9dc8b;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #5a5a58,
+    0 0 50px #d9dc8b,
+    0 0 60px #d9dc8b;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(225s / var(--i));
+}
+
+.bubbles span:nth-child(even){
+    background: #dfd9db;
+    box-shadow: 0 0 0 10px #d1c1c644,
+    0 0 50px #dfd9db,
+    0 0 60px #dfd9db;
+    
+}
+
+
+@keyFrames animate
+{
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(0.2);
+    }
+}
